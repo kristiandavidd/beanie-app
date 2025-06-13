@@ -36,11 +36,17 @@ function CoffeeList({ type = "default", title = "Our Coffee" }) {
       <Heading1 className="mb-4">{title}</Heading1>
 
       {isLoading ? (
-        <Caption className="py-4 text-gray-500">Loading coffee products...</Caption>
+        <Caption className="py-4 text-gray-500">
+          Loading coffee products...
+        </Caption>
       ) : isError ? (
-        <Caption className="py-4 text-red-500">Failed to load products. Please try again later.</Caption>
+        <Caption className="py-4 text-red-500">
+          Failed to load products. Please try again later.
+        </Caption>
       ) : products.length === 0 ? (
-        <Caption className="py-4 text-gray-500">No coffee available at the moment.</Caption>
+        <Caption className="py-4 text-gray-500">
+          No coffee available at the moment.
+        </Caption>
       ) : (
         <div className="flex flex-col gap-2">
           {products.map((item) => (

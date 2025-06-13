@@ -16,7 +16,7 @@ export default function Home() {
       <ProductList />
       <TestimoniList />
       <ProductGrid />
-      <section className="container flex flex-col gap-8 py-16 mx-auto md:flex-row">
+      <section className="container flex flex-col gap-8 py-16 mx-auto md:flex-row w-[90dvw]">
         <CoffeeList type="newest" title="New Arrivals" />
         <CoffeeList type="bestseller" title="Best Seller" />
       </section>

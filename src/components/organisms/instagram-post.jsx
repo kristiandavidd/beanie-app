@@ -22,7 +22,7 @@ export default function InstagramPost() {
         {images.map((image, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center"
+            className="flex flex-col items-center justify-center transition-all duration-300 ease-in-out cursor-pointer hover:translate-y-1 hover:shadow-lg"
           >
             <AspectRatio ratio={1} className="w-full">
               <Image

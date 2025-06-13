@@ -50,7 +50,7 @@ export default function BlogList() {
           {blog.map((item, index) => (
             <div
               key={item.id}
-              className="w-full py-6 transition-shadow duration-300 bg-white rounded-lg h-fit hover:cursor-pointer hover:bg-accent"
+              className="w-full py-6 transition-all duration-300 ease-in-out bg-white rounded-lg cursor-pointer hover:translate-y-1 hover:shadow-lg h-fit hover:cursor-pointer hover:bg-accent"
             >
               <div
                 className={`w-full overflow-hidden rounded-md mb-4 ${
