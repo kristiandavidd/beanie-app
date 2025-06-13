@@ -44,7 +44,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="h-[40vh] md:h-[60vh] flex flex-col items-center justify-center w-full">
-        <div className="relative flex items-center justify-between w-full h-full">
+        <div className="relative flex items-center justify-between w-full h-full overflow-hidden">
           <Image
             src="/images/decor/leaf-left.png"
             alt="Leaf Decoration Left"
